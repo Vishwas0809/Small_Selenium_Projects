@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class Reports {
 	static ExtentTest test;
