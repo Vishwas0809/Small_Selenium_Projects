@@ -16,7 +16,7 @@ public class ListenerMainClass implements ITestListener
     @Override		
     public void onStart(ITestContext Result)
     {		
-    	System.out.println("suite starts");
+    	System.out.println("suite starts:"+Result.getName());
             		
     }		
 

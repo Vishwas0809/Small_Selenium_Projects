@@ -12,7 +12,8 @@ public class PageFactory_intialisation {
 	WebDriver driver;
     Page_Factory_Model Pf;
     
-    @BeforeTest
+    @SuppressWarnings("deprecation")
+	@BeforeTest
     public void setup() {
        driver=new ChromeDriver();
        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

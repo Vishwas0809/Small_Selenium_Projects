@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-27T13:17:55 IST" name="Default suite" finished-at="2024-03-27T13:18:05 IST" duration-ms="9795">
+  <suite started-at="2024-03-27T18:18:26 IST" name="Default suite" finished-at="2024-03-27T18:18:39 IST" duration-ms="12621">
     <groups>
     </groups>
-    <test started-at="2024-03-27T13:17:55 IST" name="Default test" finished-at="2024-03-27T13:18:05 IST" duration-ms="9795">
+    <test started-at="2024-03-27T18:18:26 IST" name="Default test" finished-at="2024-03-27T18:18:39 IST" duration-ms="12621">
       <class name="listeners.Event_Capture">
-        <test-method signature="Login()[pri:0, instance:listeners.Event_Capture@4b8ee4de]" started-at="2024-03-27T13:17:55 IST" name="Login" finished-at="2024-03-27T13:18:05 IST" duration-ms="9701" status="PASS">
+        <test-method signature="Login()[pri:0, instance:listeners.Event_Capture@4b8ee4de]" started-at="2024-03-27T18:18:26 IST" name="Login" finished-at="2024-03-27T18:18:39 IST" duration-ms="12501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="TestToFail()[pri:0, instance:listeners.Event_Capture@4b8ee4de]" started-at="2024-03-27T13:18:05 IST" name="TestToFail" finished-at="2024-03-27T13:18:05 IST" duration-ms="12" status="FAIL">
+        <test-method signature="TestToFail()[pri:0, instance:listeners.Event_Capture@4b8ee4de]" started-at="2024-03-27T18:18:39 IST" name="TestToFail" finished-at="2024-03-27T18:18:39 IST" duration-ms="13" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>

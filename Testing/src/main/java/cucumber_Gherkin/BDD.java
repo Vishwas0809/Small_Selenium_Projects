@@ -57,7 +57,7 @@ public class BDD {
 	        driver = new ChromeDriver();
 			PageFactory.initElements(driver,this);
 	    }
-	@Given("Verify header")
+	    @Given("Verify header")
 		public void verifyHeader() {
 		driver.manage().window().maximize();
 		driver.get("https://dashboard.fincart.com/Login/");
@@ -65,16 +65,16 @@ public class BDD {
 			sa=new SoftAssert();
 			sa.assertEquals(header, "Workpoint | Fincart", "assert fail");
 		}
-	@And("Verify username")
+	    @And("Verify username")
 		public void username() {
 			username.sendKeys("Testentry@fincart.com");
 		}
-	@When("Verify password")
+        	@When("Verify password")
 			public void password() throws InterruptedException {
 			password.sendKeys("fincart@123");
 			Thread.sleep(4000);
-			}
-	@And("click")
+	  		}
+         	@And("click")
 			public void click() throws InterruptedException {
 			button.click();
 			Thread.sleep(4000);
